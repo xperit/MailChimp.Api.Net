@@ -8,7 +8,7 @@ namespace MailChimp.Api.Net.Domain.Lists
 {
     public class Stats
     {
-        public int avg_open_rate { get; set; }
-        public int avg_click_rate { get; set; }
+        public decimal avg_open_rate { get; set; }
+        public decimal avg_click_rate { get; set; }
     }
 }
